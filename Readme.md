@@ -1,8 +1,8 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Contact.cs](./CS/OrgChartBindingExample/Data/Contact.cs) (VB: [ContactContextInitializer .vb](./VB/OrgChartBindingExample/Data/ContactContextInitializer .vb))
-* [ContactContextInitializer .cs](./CS/OrgChartBindingExample/Data/ContactContextInitializer .cs) (VB: [ContactContextInitializer .vb](./VB/OrgChartBindingExample/Data/ContactContextInitializer .vb))
+* [Contact.cs](./CS/OrgChartBindingExample/Data/Contact.cs) (VB: [ContactContextInitializer.vb](./VB/OrgChartBindingExample/Data/ContactContextInitializer.vb))
+* [ContactContextInitializer.cs](./CS/OrgChartBindingExample/Data/ContactContextInitializer.cs) (VB: [ContactContextInitializer.vb](./VB/OrgChartBindingExample/Data/ContactContextInitializer.vb))
 * [Gender.cs](./CS/OrgChartBindingExample/Data/Gender.cs) (VB: [Gender.vb](./VB/OrgChartBindingExample/Data/Gender.vb))
 * [MainWindow.xaml](./CS/OrgChartBindingExample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/OrgChartBindingExample/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/OrgChartBindingExample/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/OrgChartBindingExample/MainWindow.xaml.vb))
