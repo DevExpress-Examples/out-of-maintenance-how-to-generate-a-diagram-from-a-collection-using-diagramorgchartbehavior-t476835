@@ -95,7 +95,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Data\Contact.cs" />
-    <Compile Include="Data\ContactContextInitializer .cs" />
+    <Compile Include="Data\ContactContextInitializer.cs" />
     <Compile Include="Data\Gender.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
