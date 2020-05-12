@@ -119,7 +119,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Data\Contact.vb" />
-    <Compile Include="Data\ContactContextInitializer .vb" />
+    <Compile Include="Data\ContactContextInitializer.vb" />
     <Compile Include="Data\Gender.vb" />
     <Compile Include="MainWindow.xaml.vb">
       <DependentUpon>MainWindow.xaml</DependentUpon>
