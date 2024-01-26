@@ -8,7 +8,7 @@
 
 This example uses the [DiagramOrgChartBehavior](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramOrgChartBehavior) to generate a hierarchical diagram from a data source or collection.
 
-![image](https://github.com/DevExpress-Examples/wpf-diagram-use-diagramorgchartbehavior-to-generate-diagram-from-collection/assets/65009440/44c45ac6-9fb0-499e-8e46-bb483d683917)
+![image](https://github.com/DevExpress-Examples/wpf-diagram-use-diagramorgchartbehavior-to-generate-diagram-from-collection/assets/65009440/137aa033-f2cf-427f-b485-e7f715abe4dc)
 
 ## Implementation Details
 
