@@ -16,7 +16,7 @@ This example uses the [DiagramOrgChartBehavior](https://docs.devexpress.com/WPF/
 2. Specify the following properties to map the behavior to data:
    * The [ItemsSource](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehaviorBase.ItemsSource) property specifies a collection of source items.
    * [KeyMember](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehaviorBase.KeyMember) and [ParentMember](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramOrgChartBehavior.ParentMember) properties specify an item hierarchy for self-referential data.
-3. Use the [Item Template Designer](https://docs.devexpress.devx/WPF/117615/controls-and-libraries/diagram-control/data-binding/item-template-designer) to create "templates" for diagram items and connectors.
+3. Use the [Item Template Designer](https://docs.devexpress.com/WPF/117615/controls-and-libraries/diagram-control/data-binding/item-template-designer) to create "templates" for diagram items and connectors.
    This designer creates a [TemplateDiagram](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehaviorBase.TemplateDiagram) object that contains generated code with diagram shapes and connectors.
 
 ## Files to Review
@@ -28,8 +28,8 @@ This example uses the [DiagramOrgChartBehavior](https://docs.devexpress.com/WPF/
 
 ## Documentation
 
-* [Generate Organization Charts](https://docs.devexpress.devx/WPF/118579/controls-and-libraries/diagram-control/data-binding/generating-organization-charts)
-* [Item Template Designer](https://docs.devexpress.devx/WPF/117615/controls-and-libraries/diagram-control/data-binding/item-template-designer)
+* [Generate Organization Charts](https://docs.devexpress.com/WPF/118579/controls-and-libraries/diagram-control/data-binding/generating-organization-charts)
+* [Item Template Designer](https://docs.devexpress.com/WPF/117615/controls-and-libraries/diagram-control/data-binding/item-template-designer)
 
 ## More Examples
 
