@@ -1,11 +1,8 @@
-﻿using DevExpress.Mvvm;
-using DevExpress.Mvvm.DataAnnotations;
+﻿using DevExpress.Mvvm.DataAnnotations;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace OrgChartBindingExample.Model
-{
+namespace OrgChartBindingExample.Model {
     public class Contact {
         [ReadOnly(true)]
         [Display(AutoGenerateField = false)]
@@ -44,7 +41,7 @@ namespace OrgChartBindingExample.Model
 
         [Display(GroupName = "Address")]
         [DisplayFormat(NullDisplayText = "<empty>")]
-        [RegExMaskAttribute(Mask = @"\w{1,25}", UseAsDisplayFormat = true, ShowPlaceHolders = false)]
+        [RegExMask(Mask = @"\w{1,25}", UseAsDisplayFormat = true, ShowPlaceHolders = false)]
         public string City { get; set; }
 
         [Display(GroupName = "Address")]

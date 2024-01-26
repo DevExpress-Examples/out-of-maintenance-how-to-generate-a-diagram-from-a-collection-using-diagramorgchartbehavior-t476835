@@ -1,21 +1,15 @@
-﻿using OrgChartBindingExample.Model;
-using DevExpress.Mvvm;
-using DevExpress.Mvvm.DataAnnotations;
-using DevExpress.Mvvm.POCO;
-using System.Collections;
+﻿using DevExpress.Mvvm;
+using OrgChartBindingExample.Model;
 using System.Collections.Generic;
-using System.Linq;
 
-namespace OrgChartBindingExample.ViewModels
-{
-    [POCOViewModel]
-    public class MainViewModel {
+namespace OrgChartBindingExample.ViewModels {
+    public class MainViewModel : ViewModelBase {
 
-        public virtual IList<Contact> Contacts { get; protected set; }
+        public IList<Contact> Contacts { get; protected set; }
 
-        protected MainViewModel() {
+        public MainViewModel() {
 
-            if (!ViewModelBase.IsInDesignMode)
+            if (!IsInDesignMode)
                 InitializeInRuntime();
             else
                 InitializeInDesingMode();

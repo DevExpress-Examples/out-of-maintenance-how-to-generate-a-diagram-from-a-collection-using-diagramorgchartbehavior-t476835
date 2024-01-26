@@ -1,11 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 
-namespace OrgChartBindingExample.Model
-{
+namespace OrgChartBindingExample.Model {
     public class ContactContextInitializer {
-        public List<Contact> Generate()
-        {
+        public List<Contact> Generate() {
             List<Contact> contacts = new List<Contact>() {
                 new Contact("Carolyn", "Baker") {
                     Gender = Gender.Female, Email = "carolyn.baker@example.com", Phone = "(555)349-3010",
@@ -61,11 +59,10 @@ namespace OrgChartBindingExample.Model
             InitializePhotos(contacts);
             contacts.ForEach(x => x.Id = contacts.IndexOf(x));
             return contacts;
-           
+
         }
         void InitializePhotos(IList<Contact> contacts) {
-            foreach (Contact contact in contacts)
-            {
+            foreach (Contact contact in contacts) {
                 contact.Photo = GetPhoto(contact);
             }
         }
