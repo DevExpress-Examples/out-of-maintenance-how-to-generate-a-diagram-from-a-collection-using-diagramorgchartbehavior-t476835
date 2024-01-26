@@ -3,10 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:dxdiag="http://schemas.devexpress.com/winfx/2008/xaml/diagram"
         xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
-        DataContext="{dxmvvm:ViewModelSource Type={x:Type viewModel:MainViewModel}}"
-        xmlns:local="clr-namespace:OrgChartBindingExample"
         xmlns:viewModel="clr-namespace:OrgChartBindingExample.ViewModels"
         Title="MainWindow" Height="750" Width="1025">
+    <Window.DataContext>
+        <viewModel:MainViewModel/>
+    </Window.DataContext>
     <Grid>
         <dxdiag:DiagramControl ShowGrid="False" ShowRulers="False" ShowPageBreaks="False">
             <dxmvvm:Interaction.Behaviors>
