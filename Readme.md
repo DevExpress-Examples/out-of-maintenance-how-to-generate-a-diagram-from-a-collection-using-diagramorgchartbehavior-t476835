@@ -3,21 +3,34 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T476835)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+
+# WPF Diagram - Use DiagramOrgChartBehavior to Generate a Diagram from a Collection
+
+This example uses the [DiagramOrgChartBehavior](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramOrgChartBehavior) to generate a hierarchical diagram from a data source or collection.
+
+![image](https://github.com/DevExpress-Examples/wpf-diagram-use-diagramorgchartbehavior-to-generate-diagram-from-collection/assets/65009440/44c45ac6-9fb0-499e-8e46-bb483d683917)
+
+## Implementation Details
+
+1. Add the [DiagramOrgChartBehavior](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramOrgChartBehavior) to the [DiagramControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramControl).
+2. Specify the following properties to map the behavior to data:
+   * The [ItemsSource](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehaviorBase.ItemsSource) property specifies a collection of source items.
+   * [KeyMember](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehaviorBase.KeyMember) and [ParentMember](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramOrgChartBehavior.ParentMember) properties specify an item hierarchy for self-referential data.
+3. Use the [Item Template Designer](https://docs.devexpress.devx/WPF/117615/controls-and-libraries/diagram-control/data-binding/item-template-designer) to create "templates" for diagram items and connectors.
+   This designer creates a [TemplateDiagram](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDataBindingBehaviorBase.TemplateDiagram) object that contains generated code with diagram shapes and connectors.
+
+## Files to Review
 
 * [Contact.cs](./CS/OrgChartBindingExample/Data/Contact.cs) (VB: [Contact.vb](./VB/OrgChartBindingExample/Data/Contact.vb))
 * [ContactContextInitializer.cs](./CS/OrgChartBindingExample/Data/ContactContextInitializer.cs) (VB: [ContactContextInitializer.vb](./VB/OrgChartBindingExample/Data/ContactContextInitializer.vb))
-* [Gender.cs](./CS/OrgChartBindingExample/Data/Gender.cs) (VB: [Gender.vb](./VB/OrgChartBindingExample/Data/Gender.vb))
-* [MainWindow.xaml](./CS/OrgChartBindingExample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/OrgChartBindingExample/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/OrgChartBindingExample/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/OrgChartBindingExample/MainWindow.xaml.vb))
 * [MainViewModel.cs](./CS/OrgChartBindingExample/ViewModels/MainViewModel.cs) (VB: [MainViewModel.vb](./VB/OrgChartBindingExample/ViewModels/MainViewModel.vb))
-<!-- default file list end -->
-# How to generate a diagram from a collection using DiagramOrgChartBehavior
+* [MainWindow.xaml](./CS/OrgChartBindingExample/MainWindow.xaml)
 
+## Documentation
 
-This example demonstrates how to generate a diagram from a certain source/collection using DiagramOrgChartBehavior. To provide DiagramOrgChartBehavior with the required source, use the <a href="https://documentation.devexpress.com/WPF/DevExpressXpfDiagramDiagramDataBindingBehaviorBase_ItemsSourcetopic.aspx">ItemsSource</a> property. To build and display relationships between diagram shapes, use the <a href="https://documentation.devexpress.com/WPF/DevExpressXpfDiagramDiagramDataBindingBehaviorBase_KeyMembertopic.aspx">KeyMember</a> and <a href="https://documentation.devexpress.com/WPF/DevExpressXpfDiagramDiagramOrgChartBehavior_ParentMembertopic.aspx">ParentMember</a> properties. The <a href="https://documentation.devexpress.com/WPF/DevExpressXpfDiagramDiagramDataBindingBehaviorBase_TemplateDiagramtopic.aspx">TemplateDiagram</a> property contains DiagramItems used to generate and show shapes and connectors according to the bound collection.
+* [Generate Organization Charts](https://docs.devexpress.devx/WPF/118579/controls-and-libraries/diagram-control/data-binding/generating-organization-charts)
+* [Item Template Designer](https://docs.devexpress.devx/WPF/117615/controls-and-libraries/diagram-control/data-binding/item-template-designer)
 
-<br/>
+## More Examples
 
-
+* [WPF Diagram - Use DiagramDataBindingBehavior to Generate a Diagram from a Collection](https://github.com/DevExpress-Examples/wpf-diagram-use-diagramdatabindingbehavior-to-generate-diagram-from-collection)
